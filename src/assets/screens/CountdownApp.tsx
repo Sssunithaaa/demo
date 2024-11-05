@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Calendar, Clock, MoreVertical, X, Save } from 'lucide-react';
 import { Card, CardContent } from '../../components/ui/card';
 
-// Define interfaces for type safety
-interface Journal {
-    content: string;
-    date: string;
-}
+
 
 interface Event {
     date: string;
